@@ -1,0 +1,56 @@
+Frage: Zählen Sie 5 wichtige Merkmale auf, die einen Server von einem Client (z.B. PC oder Laptop) unterscheiden
+
+Der grösste Unterschied, ist, dass ein Server auf Requests eines Clients wartet, wohingegen einen Client diese Requests versendet.
+Neben dem Uhnterschied des Namens und der Definition, liegt der Unterschied bei der Hardware und der Software. 
+Die Hardware eines Servers ist dafür gedacht, viele Fallbacks zu haben, damit der Server unter jedem Umstand aktiv bleiben kann.
+Ansonsten ist die Hardware auch für schnelle Kommunikation zwischen dem Server und dem Client ausgelegt.
+Die Software unterscheidet sich auch sehr von dem Client. Auf einem Server findet man Grundsätzlich keine GUIs, da der Server nur direkt von einem Serverwater behandelt wird.
+Die OS der Servers sind auch meistens dafür gedacht, so viel Betriebskraft wie möglich zu sparen und haben deshalb auch keine GUIs.
+
+Frage: Nennen Sie fünf Dienste, die von Servern weltweit Ihrer Meinung nach am häufigsten angeboten werden
+
+Die Dienste, welche ich am häufigsten mit Servers assoziere, sind; VPN-Dienste, Web-Hosting, File-Backups, Game-Hosting und Streamen.
+
+Frage: Weshalb spielt das Netzwerk eine wichtige Rolle
+
+Das Netzwerk ist die Brücke zwischen dem Client und dem Server. Mit einem Netzwerk, welches nicht optimisiert ist, kann es zu verlangsamten Übertragungsraten oder sogar Datenverlust führen.
+
+Frage: Erklären Sie die Begriffe "Availability", "Reliability" und "Scalability"
+
+Availability ist die Verfügbarkeit eines Servers, also wie oft und zur welcher Zeit man auf diesen zugreifen kann.
+Reliability ist die Verlässligkeit des Servers, also wie gut man sich auf diesen Verlassen kann.
+Scalability ist die Anpassungsfähigkeit des Servers, also wie gut sich der Server auf die verlangte Fähigkeit anpassen kann.
+
+Frage: Weshalb sind die drei Begriffe oben besonders bei Servern so wichtig?
+
+Sie beschreiben die Qualität eines Servers.
+
+Frage: Ethernet-Ports: Well-Known / Registered / Dynamic --> was bedeuten diese Begriffe?
+
+Ethernet-Ports sind die Schnittstellen, welche für eine Ethernet-Verbindung verwendet werden.
+Well-Known-Ports sind Ports, welche vorreserviert sind für den TCP oder der UDP.
+Registered-Ports sind Ports, welche für bestimmte Protokolle vorreserviert sind.
+Dynamic-Ports sind Ports, welche nicht für einen bestimmten Zweck reserviert sind.
+
+Frage: OSI-Schichtenmodell oder TCP/IP-Stack: Für was stehen diese Begriffe?
+
+OSI: Open Systems Interconnection
+TCP: Transmission Controll Protocoll
+IP: Internet Protocoll
+Das OSI-Schichtenmodell ist das Standardisierte Modell für die Darstellung von Netzwerken. Es stellt sie in Schichten dar, welche nur mit derselben oder Schichten unter ihnen Kommunizieren können.
+Das Internet-Protokoll wird für die Kommunikation von verschiedenen Geräten verwendet. Ein Computer kann über die IP-Addresse die MAC-Addresse eines Computers herausfinden.
+Über die MAC-Addresse kann ein Computer mit dem Transmission-Controll-Protocoll daten versenden.
+
+
+Frage: Welche Aufgaben werden von Protokollen im OSI-Schichtenmodell erfüllt?
+
+Protokolle sind bestimmte vorgegebene Aufgaben, welche nur einen Zweck erfüllen.
+Protokolle sind meistens für die Kommunikation oder das Aufbauen der Kommunikation zuständig.
+
+Frage: Nennen Sie 5 wichtige Protokolle und die dazugehörigen Dienste
+
+Die wichtigsten Protokolle, meiner Meinung nach, sind das TCP, UDP, SPX, DCCP und SCTP
+
+Frage: Auf welcher OSI-Schicht (oder TCP/IP-Stack) liegen die Ports der Client- und Server-Dienste?
+
+Auf dem 4. Layer.
